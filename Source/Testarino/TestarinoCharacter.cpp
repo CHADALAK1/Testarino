@@ -91,6 +91,7 @@ void ATestarinoCharacter::OnFire()
 		{
 			// spawn the projectile at the muzzle
 			World->SpawnActor<ATestarinoProjectile>(ProjectileClass, SpawnLocation, SpawnRotation);
+			GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, "HERP A DERP LOVES DERP");
 		}
 	}
 
